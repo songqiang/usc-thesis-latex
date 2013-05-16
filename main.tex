@@ -1,0 +1,77 @@
+\documentclass{USC-Thesis}
+
+\usepackage{indentfirst, times, graphicx, subfigure, natbib,
+  setspace, amsmath, multirow, algorithm, epstopdf, amsmath, amsthm,
+  amssymb, algorithmic}
+
+%%% endfloat: push all tables and figures to the end of the paper
+%%% disable in final manuscript
+%  \usepackage{endfloat}
+% \usepackage{fullpage}
+% \singlespacing
+
+\usepackage{lmodern}            % Use latin modern fonts
+\usepackage[T1]{fontenc}        % Use Type 1 encoding 
+\usepackage[nottoc]{tocbibind} % include reference in the TOC
+
+\usepackage[pdfborder={0 0 0}]{hyperref}
+\numberwithin{equation}{chapter}
+
+\newcommand{\emparagraph}[1]{\medskip\noindent{\it #1}}
+\newcommand{\bbin}{\ensuremath{\mathrm{BetaBin}}}
+\newcommand{\bbeta}{\ensuremath{\mathrm{Beta}}}
+\newcommand{\E}{\ensuremath{\mathrm{E}}}
+
+\title{Whole genome bisulfite sequencing:  \break
+ analytical methods and  biological insights}
+\author{Qiang Song} 
+\major{Computational Biology and Bioinformatics} 
+\month{May} 
+\year{2013}
+
+\newcommand{\MasterDocuement}{MasterDocuement}
+
+\begin{document}
+%%%%% FINAL OUTPUT %%%%%
+
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\topmatter{Dedication}
+To my mom, dad and sister.
+
+\topmatter{Acknowledgments}
+thank you!!
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\tableofcontents  % Table Of Contents
+\listoftables     % List of tables
+\listoffigures    % List of figures
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\topmatter{Abstract}
+abstract: blah blah
+
+
+\mainmatter
+
+\chapter{Introduction}
+\chapter{main chapters}
+blah blah
+\chapter{Conlusions}
+
+\bibliographystyle{namedplus}
+\bibliography{references}
+
+\appendix
+\chapter{Appendix 1}
+\chapter{Appendix 2}
+
+\end{document}
+
+
+
