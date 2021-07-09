@@ -10,6 +10,25 @@
 % \usepackage{fullpage}
 % \singlespacing
 
+% display vector and matrix
+\usepackage{fixmath}
+\renewcommand{\vec}[1]{\mathbold{#1}}
+\newcommand{\mat}[1]{\mathbold{#1}}
+
+% professional tables
+\usepackage{booktabs}
+
+% number formatting
+\usepackage{siunitx}
+% ---
+\sisetup{
+	round-mode = places,
+	round-precision = 3
+}%
+
+
+
+
 \usepackage{lmodern}            % Use latin modern fonts
 \usepackage[T1]{fontenc}        % Use Type 1 encoding 
 \usepackage[nottoc]{tocbibind} % include reference in the TOC
